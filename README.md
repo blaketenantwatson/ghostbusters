@@ -13,8 +13,37 @@ Backing code that assists the pacman agents in tracking ghosts
 #### busters.py
 Main file to run pacman simulation
 
-#### bustersGhostAgents.py
+#### ghostAgents.py
 Implementatin of ghost movement intelligence
 
 #### distanceCalculator.py
 Computations for distances within the mazes
+
+#### game.py
+Backing code for the game board
+
+#### graphicsDisplay.py
+Graphics implementation
+
+#### keyboardAgents.py
+Keyboard interfacing
+
+#### layout.py
+Background layout for all stored content
+
+#### util.py
+A number of utility functions for all other files.
+
+#### test.py
+Unit based tests for all implemented agents
+
+## Executing Code
+The pacman game itself can be played by running
+```
+python busters.py
+```
+The test file contains tests for all pacman agent functions, and can be run in its entirety with
+```
+python autograder.py -q q<number>
+```
+where <number> is a number from 1 to 6. Very specific tests can be run with the '-t' option and any test case found in the 'test_cases' folder.

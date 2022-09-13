@@ -47,3 +47,6 @@ The test file contains tests for all pacman agent functions, and can be run in i
 python autograder.py -q q<number>
 ```
 where \<number\> is a number from 1 to 6. Very specific tests can be run with the '-t' option and any test case found in the 'test_cases' folder.
+
+## Credits
+This project was completed as part of CS3600 at the Georgia Institute of Technology, and a significant portion of the code was provided by the teaching staff. All proper credit is given to the GaTech teaching staff and TAs for their portions of the presented code.

@@ -46,4 +46,4 @@ The test file contains tests for all pacman agent functions, and can be run in i
 ```
 python autograder.py -q q<number>
 ```
-where <number> is a number from 1 to 6. Very specific tests can be run with the '-t' option and any test case found in the 'test_cases' folder.
+where \<number\> is a number from 1 to 6. Very specific tests can be run with the '-t' option and any test case found in the 'test_cases' folder.

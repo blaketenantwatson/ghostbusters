@@ -2,7 +2,7 @@
 Neural network implemented in python without the use of ml packages
 
 ## Description
-This project contains a number of files, a number of which are not described here.
+This project contains numerous of files, a number of which are not described here.
 
 #### bustersAgents.py
 The agents implementations for pacman.
